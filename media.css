@@ -1,0 +1,144 @@
+@media (width > 768px){
+    nav{
+        position: static;
+        padding: 2rem 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .nav__header{
+        padding: 0;
+        background-color: transparent;
+    }
+
+    .nav__menu__btn{
+        display: none;
+    }
+
+    .nav__link{
+        position: static;
+        padding: 0;
+        flex-direction: row;
+        justify-content: flex-end;
+        transform: none;
+        background-color:transparent ;
+    }
+
+    .steps__grid{
+        margin-top: 6rem;
+        grid-template-columns: repeat(4,1fr);
+    }
+
+    .steps__card:nth-child(2n-1){
+        transform: translateY(-2rem);
+    }
+
+    .explore__grid{
+        grid-template-columns: repeat(4,1fr);
+    }
+    .job__grid{
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .offer__grid{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .header__container > img:nth-child(1){
+        top: 35%;
+        left: 20%;
+        transform: translate(-50%,-50%);
+    }
+    
+    .header__container > img:nth-child(2){
+        top: 70%;
+        right: 20%;
+        transform: translateY(-50%);
+    }
+    .header__container > img:nth-child(3){
+        top: 65%;
+        left: 35%;
+        transform: translate(-50%,-50%);
+    }
+    .header__container > img:nth-child(4){
+        top: 34%;
+        right: 15%;
+        transform: translate(-50%,-50%);
+    }
+    .header__container > img:nth-child(5){
+        top: 50%;
+        left: 15%;
+        transform: translateY(-50%);
+    }
+
+
+    
+}
+
+@media (width > 540px <768px){
+    .header__container > img:nth-child(1){
+        top: 35%;
+        left: 15%;
+        transform: translate(-50%,-50%);
+    }
+    
+    .header__container > img:nth-child(2){
+        top: 50%;
+        right: 20%;
+        transform: translateY(-50%);
+    }
+    .header__container > img:nth-child(3){
+        top: 45%;
+        left: 35%;
+        transform: translate(-50%,-50%);
+    }
+    .header__container > img:nth-child(4){
+        top: 34%;
+        right: 15%;
+        transform: translate(-50%,-50%);
+    }
+    .header__container > img:nth-child(5){
+        top: 50%;
+        left: 15%;
+        transform: translateY(-50%);
+    }
+
+
+     .steps__grid{
+        grid-template-columns: repeat(2,1fr);
+     }
+
+     .explore__grid{
+        grid-template-columns: repeat(2,1fr);
+     }
+
+     .job__grid{
+        grid-template-columns: repeat(2,1fr);
+     }
+
+     .offer__grid{
+        grid-template-columns: repeat(2,1fr);
+     }
+
+     .footer__container{
+        grid-template-columns: repeat(2,1fr);
+     }
+}
+
+@media (width > 1024px){
+    .steps__card{
+        padding: 1.5rem;
+    }
+    .explore__card{
+        padding: 1.5rem;
+    }
+
+    .footer__container{
+        grid-template-columns: repeat(5,1fr);
+    }
+
+    .footer__col:nth-child(1){
+        grid-column: 1/3;
+    }
+}
